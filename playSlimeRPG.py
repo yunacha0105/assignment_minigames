@@ -58,7 +58,7 @@ def playSlimeRPG():
     # 게임 종료
     if exit_game:
         print('게임을 종료합니다.')
-        return
+        return 0
 
     # 구분선 입력
     for i in range(3):
